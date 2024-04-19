@@ -79,8 +79,6 @@ function createGallery(images) {
     listLink.classList.add('gallery-link');
     listLink.href = original;
 
-    listLink.addEventListener('click', e => e.preventDefault());
-
     const listImg = document.createElement('img');
     listImg.classList.add('gallery-image');
     listImg.src = preview;
